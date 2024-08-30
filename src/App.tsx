@@ -1,11 +1,12 @@
-// import Calculator from "./components/calculator/Calculator";
-import HomePage from "./components/home/HomeSection";
+import AboutSection from "./components/about/AboutSection";
+import HomeSection from "./components/home/HomeSection";
 
 function App() {
 
   return (
     <div className="main">
-      <HomePage />
+      <HomeSection />
+      <AboutSection />
     </div>
   )
 }
